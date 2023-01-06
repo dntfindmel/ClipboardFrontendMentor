@@ -1,0 +1,39 @@
+.header-container {
+    background-image: url("../images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 480px;
+}
+
+.header-container__image {
+    margin-top: 6rem;
+}
+
+.header-container__title {
+    color: var(--Dark-Grayish-Blue);
+}
+
+.header-container__text {
+    color: var(--Grayish-Blue);
+    margin-bottom: 3rem;
+}
+
+.header-container__link {
+    text-decoration: none;
+    margin-right: 1.5rem;
+    background-color: var(--Strong-Cyan);
+    color: white;
+    padding: .7rem 2rem;;
+    border-radius: 25px;
+
+}
+
+.header-container__link--blue {
+    text-decoration: none;
+    margin-right: 1.5rem;
+    background-color: var( --Light-Blue);
+    color: white;
+    padding: .7rem 2rem;;
+    border-radius: 25px;
+}

@@ -1,0 +1,16 @@
+@import url("../css/header.css");
+
+:root {
+ --Strong-Cyan: hsl(171, 66%, 44%);
+ --Light-Blue: hsl(233, 100%, 69%);
+ --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+ --Grayish-Blue: hsl(201, 11%, 66%);
+ --principal-font: 'Bai Jamjuree';
+} 
+
+body {
+    font-size: 18px;
+    font-family: var(--principal-font);
+    margin: 0 auto;
+}
+
