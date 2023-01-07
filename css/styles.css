@@ -1,4 +1,7 @@
 @import url("../css/header.css");
+@import url("../css/section.css");
+@import url("../css/devices.css");
+@import url("../css/workflow.css");
 
 :root {
  --Strong-Cyan: hsl(171, 66%, 44%);

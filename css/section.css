@@ -1,0 +1,36 @@
+
+
+.computer-container__title {
+    color: var(--Dark-Grayish-Blue);
+    margin-top: 6rem;
+    text-align: center;
+}
+
+.computer-container__text {
+    color: var(--Grayish-Blue);
+    text-align: center;
+}
+
+.computer-container__image {
+    margin-top: 6rem;
+    float: left;
+    margin-right: 8rem;
+}
+
+.computer-container__subtitle--one {
+    clear: right;
+    margin-top: 11.5rem;
+    color: var(--Dark-Grayish-Blue);
+}
+
+.computer-container__subtitle {
+    margin-top: 4.5rem;
+    color: var(--Dark-Grayish-Blue);
+}
+
+.computer-container__subtext {
+    color: var(--Grayish-Blue);
+}
+
+
+

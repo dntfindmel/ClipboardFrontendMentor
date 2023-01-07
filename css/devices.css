@@ -1,0 +1,13 @@
+.devices-container {
+    margin-top: 15rem;
+    text-align: center;
+}
+
+.devices-container__title {
+    color: var(--Dark-Grayish-Blue);
+}
+
+.devices-container__text {
+    color: var(--Grayish-Blue);
+}
+

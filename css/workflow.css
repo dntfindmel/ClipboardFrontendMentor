@@ -1,0 +1,25 @@
+.workflow-container {
+    text-align: center;
+}
+
+.workflow-container__title, .workflow__section--subtext {
+    color: var(--Dark-Grayish-Blue);
+}
+
+.workflow-container__text, .workflow__section--text {
+    color: var(--Grayish-Blue);
+}
+
+.workflow__section--cards {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+}
+
+.workflow__section--image {
+    height: 2rem;
+}
+
+
+
