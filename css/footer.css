@@ -1,0 +1,43 @@
+.footer-container {
+    margin-top: 8rem;
+    height: 140px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #F2F2F2;
+    color: var(--Dark-Grayish-Blue)
+}
+
+.footer-container__logo {
+    width: 3rem;
+    margin-right: 4rem;
+}
+
+
+.footer-container__image {
+    padding-right: 1rem;
+}
+
+
+@media screen and (max-width: 440px) {
+    .footer-container {
+        display: block;
+        text-align: center ;
+        height: 450px;
+    }
+
+    .footer-container__logo {
+        margin: 0 auto;
+        padding-top: 2.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .footer-social {
+        margin-top: 2.5rem;
+        margin-left: 2.2rem;
+    }
+    
+    .footer-container__image {
+        padding-right: 2rem;
+    }
+}

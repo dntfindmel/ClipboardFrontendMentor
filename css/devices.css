@@ -11,3 +11,8 @@
     color: var(--Grayish-Blue);
 }
 
+@media screen and (max-width: 440px) {
+    .devices-container__image {
+        width: 100%;
+    }
+}

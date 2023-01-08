@@ -1,25 +1,18 @@
-.header-container {
-    background-image: url("../images/bg-header-desktop.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+.download-container {
+    margin-top: 10rem;
     text-align: center;
-    height: 480px;
 }
 
-.header-container__image {
-    margin-top: 6rem;
-}
-
-.header-container__title {
+.download__title {
     color: var(--Dark-Grayish-Blue);
 }
 
-.header-container__text {
+.download__text {
     color: var(--Grayish-Blue);
     margin-bottom: 3rem;
 }
 
-.header-container__link {
+.download__link {
     text-decoration: none;
     margin-right: 1.5rem;
     background-color: var(--Strong-Cyan);
@@ -29,7 +22,7 @@
 
 }
 
-.header-container__link--blue {
+.download__link--blue {
     text-decoration: none;
     margin-right: 1.5rem;
     background-color: var( --Light-Blue);
@@ -38,16 +31,16 @@
     border-radius: 25px;
 }
 
-.header-container__link:active  {
+.download__link:active {
     background-color: hsla(171, 66%, 44%, 0.715);
 }
 
-.header-container__link--blue:active {
+.download__link--blue:active {
     background-color: hsla(233, 100%, 69%, 0.715);
 }
 
 @media screen and (max-width: 440px) {
-    .header-container__link, .header-container__link--blue {
+    .download__link, .download__link--blue {
         display: block;
         margin-bottom: 1rem;
         margin-left: 1.5rem;

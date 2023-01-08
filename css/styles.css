@@ -2,6 +2,9 @@
 @import url("../css/section.css");
 @import url("../css/devices.css");
 @import url("../css/workflow.css");
+@import url("../css/patriocinadores.css");
+@import url("../css/download.css");
+@import url("../css/footer.css");
 
 :root {
  --Strong-Cyan: hsl(171, 66%, 44%);
@@ -16,4 +19,6 @@ body {
     font-family: var(--principal-font);
     margin: 0 auto;
 }
+
+
 

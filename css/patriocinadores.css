@@ -1,0 +1,23 @@
+.patriocinadores-container {
+    width: 100%;
+}
+
+.patriocinadores {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 6rem;
+}
+
+@media screen and (max-width: 440px) {
+    .patriocinadores {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .patriocinadores__imagem {
+        margin-bottom: 4rem;
+    }
+}

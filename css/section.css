@@ -32,5 +32,23 @@
     color: var(--Grayish-Blue);
 }
 
+@media screen and (max-width: 440px) {
+    .computer-container__title {
+        margin-top: 18rem;
+    }
+
+    .computer-container__image {
+        width: 100%;
+        float: none;
+    }
+
+    .computer-container__div {
+        text-align: center;
+    }
+
+    .computer-container__subtitle--one {
+        margin-top: 3rem;
+    }
+}
 
 

@@ -21,5 +21,16 @@
     height: 2rem;
 }
 
+@media screen and (max-width: 440px) {
+    .workflow__section--cards {
+        display: block;
+    }
+
+    .workflow__section--image {
+        margin-top: 2rem;
+    }
+}
+
+
 
 
